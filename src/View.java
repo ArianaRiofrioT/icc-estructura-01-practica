@@ -23,14 +23,14 @@ public class View {
     }
 
     public int selectSortingMethod() {
-        System.out.println("1. Ordenar por nombre (Bubble Sort)");
-        System.out.println("2. Ordenar por edad (Insertion Sort)");
+        System.out.println("1. Ordenar por nombre ");
+        System.out.println("2. Ordenar por edad ");
         return scanner.nextInt();
     }
 
     public int selectSearchCriterion() {
-        System.out.println("1. Buscar por nombre");
-        System.out.println("2. Buscar por edad");
+        System.out.println("1. Por nombre");
+        System.out.println("2. Por edad");
         return scanner.nextInt();
     }
 
